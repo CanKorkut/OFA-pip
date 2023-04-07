@@ -25,7 +25,7 @@ def get_version():
 
 setuptools.setup(
     name="OFA",
-    version=get_version(),
+    version=1.0,
     author="",
     license="GPL",
     description="Packaged version of the Yolov5 object detector",
@@ -34,7 +34,7 @@ setuptools.setup(
     url="https://github.com/CanKorkut/OFA-pip",
     packages=setuptools.find_packages(exclude=["tests"]),
     python_requires=">=3.7",
-    install_requires=1.0,
+    install_requires=get_requirements(),
     include_package_data=True,
     options={'bdist_wheel':{'python_tag':'py37.py38.py39.py310'}},
     classifiers=[
