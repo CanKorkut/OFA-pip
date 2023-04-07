@@ -5,9 +5,11 @@ from functools import lru_cache
 
 import ftfy
 import regex as re
-import wget
+import urllib.request
+import time
 
-wget.download("https://drive.google.com/file/d/1lYpxZKvTLhaesD-XmixxKAoROs36FwSd/view?usp=share_link")
+urllib.request.urlretrieve("https://github.com/CanKorkut/OFA-pip/blob/main/OFA/models/clip/bpe_simple_vocab_16e6.txt.gz", "bpe_simple_vocab_16e6.txt.gz")
+time.sleep(1)
 
 @lru_cache()
 def default_bpe():
