@@ -5,7 +5,9 @@ from functools import lru_cache
 
 import ftfy
 import regex as re
+import wget
 
+wget.download("https://drive.google.com/file/d/1lYpxZKvTLhaesD-XmixxKAoROs36FwSd/view?usp=share_link")
 
 @lru_cache()
 def default_bpe():
