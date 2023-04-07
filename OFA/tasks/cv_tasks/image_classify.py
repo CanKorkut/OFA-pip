@@ -16,7 +16,7 @@ import torch
 from fairseq import metrics
 from fairseq.tasks import register_task
 
-from OFA.data.cv_data.image_classify_dataset import ImageClassifyDataset
+from data.cv_data.image_classify_dataset import ImageClassifyDataset
 from OFA.data import data_utils
 from OFA.tasks.ofa_task import OFAConfig, OFATask
 from OFA.utils.trie import Trie
