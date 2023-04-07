@@ -11,7 +11,7 @@ import math
 import pickle
 from typing import Optional
 from argparse import Namespace
-from data.file_dataset import FileDataset
+from OFA.data.file_dataset import FileDataset
 
 import torch
 from fairseq import metrics
