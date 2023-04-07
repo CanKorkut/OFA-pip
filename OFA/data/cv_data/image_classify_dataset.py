@@ -14,7 +14,7 @@ import torch
 import base64
 from torchvision import transforms
 from timm.data import create_transform
-from utils.vision_helper import RandomAugment
+from OFA.utils.vision_helper import RandomAugment
 
 from PIL import Image, ImageFile
 
