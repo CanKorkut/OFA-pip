@@ -16,7 +16,7 @@ from fairseq.data import encoders
 from OFA.tasks.ofa_task import OFATask, OFAConfig
 from OFA.data.nlg_data.summary_dataset import SummaryDataset
 from OFA.data.file_dataset import FileDataset
-from OFA.datasets import load_metric
+from datasets import load_metric
 
 logger = logging.getLogger(__name__)
 
